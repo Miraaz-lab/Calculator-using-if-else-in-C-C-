@@ -1,10 +1,10 @@
 #include <stdio.h>  
-//#include <conio.h>
-void main()  
+
+int main()  
 {  
     float num1,num2;
     char a;
-    //clrscr();
+    
     start:
     printf(
     "\n1.'+'Addition"
@@ -19,9 +19,6 @@ void main()
     
     printf("Enter second value:\n");
     scanf("%f",&num2);
-    
-    /*if (a!='+','-','*','/')
-    {goto start;}*/
     
     if (a=='+')
     printf("sum of both number is: %.3f\n",num1+num2);
@@ -40,5 +37,5 @@ void main()
     scanf("%c",&a);
     goto start;
     }
-    //getch();
+    return 0;
 }
